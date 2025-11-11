@@ -1,0 +1,88 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+
+
+.jumbotron {
+		margin: 0;
+		height: 95vh;
+		display: flex;
+		align-items: center;
+		text-align: left;
+		background-color: #F2C078;
+		clip-path: polygon(50%0, 100%0, 99% 95% 71.100%, 51% 94%, 26% 100%, 9% 94%, 0 99%, 0 0);
+
+	}
+
+	.jumbotron h1{
+
+		color: #521C0D;
+		font-weight: bold;
+		font-height: bold;
+		font-family: Tektur;
+	}
+
+	.jumbotron .row{
+		margin: 20px;
+		padding: 0px 20px;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		border-radius: 15px;
+	}
+
+	.jumbotron p{
+		font-size: 20px;
+		font-height: 30px;
+		font-weight: 600;
+		font-family: Caveat;
+	}
+
+	.jumbotron img{
+		filter:drop-shadow(3px 3px 3px yellowgreen);
+		transform: transform 0.3s;
+	}
+
+	.jumbotron img:hover {
+		transform: scale(0.9);
+	}
+
+	nav {
+		background-color: #F79B72;
+		border-bottom: 2px solid white;
+		border-top: 2px solid white;
+
+	}
+
+	nav a {
+		color: white;
+		font-style: 24px;
+		font-family: Times New Roman;
+	}
+
+	nav ul {
+		margin-right: 30px;
+	}
+
+	nav ul li {
+		font-size: 19px;
+	}
+
+	.bg-custom{
+		background-color: #D9A299;
+	}
+
+	.dropdown-menu a {
+		border-bottom: 0.5px solid whitesmoke;
+	}
+
+	.dropdown-menu a:hover {
+		background-color: ;
+	}
+
+	button {
+		font-family: cursive;
+	}
