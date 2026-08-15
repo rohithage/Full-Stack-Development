@@ -1,0 +1,18 @@
+body {
+	background-color: lavender;
+}
+
+#sidebar a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	border: 2px solid #1994d1;
+	margin: 7px;
+	padding: 5px;
+	background-color: #72aecc;
+}
+
+#sidebar a:hover {
+	background-color: #95cce8;
+	transition: background-color 0.2s;
+}
