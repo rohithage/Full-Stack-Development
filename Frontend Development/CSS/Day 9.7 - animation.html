@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Day 9.6 -animation</title>
+
+	<style>
+		
+		#productname:after {
+			content: "";
+			animation: productnameanim;
+			animation-duration: 4s;
+			animation-iteration-count: infinite;
+		}
+
+		@keyframes productnameanim {
+			25% {
+				content: "Shirt";
+				color: #fa071c;
+			}
+
+			50% {
+				content: "Pant";
+				color: #fae207;
+			}
+
+			75% {
+				content: "Kurtas";
+				color: #fa07fa;
+			}
+
+			100% {
+				content: "T-Shirt";
+				color: #fa8907;
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1>Get the 50%  Discount on latest on <span id="productname"></span></h1>
+</body>
+</html>

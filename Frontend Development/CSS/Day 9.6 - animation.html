@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Day 9.6 -animation</title>
+
+	<style>
+		
+		#productname {
+			/*content: "";*/
+			animation: productnameanim;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+		}
+
+		@keyframes productnameanim {
+			from {
+				background-color: darkred;
+			}
+			to {
+				background-color: royalblue;
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1>Get the 50%  Discount on latest on <span id="productname">Shirt</span></h1>
+</body>
+</html>
