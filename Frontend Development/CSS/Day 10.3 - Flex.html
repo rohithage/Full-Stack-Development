@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Day 10.3 - animation, Transform, flex</title>
+
+	<style>
+		.outer {
+			width: 800px;
+			height: 800px;
+			border: 2px solid firebrick;
+			display: flex;
+			/*flex-direction: row; it can be by default in flex property*/
+
+			/*justify-content: flex-start | flex-end | flex-center| flex-space;*/
+			justify-content: center;
+
+			/*justify-content: space-between | space-around | space-evenly;*/
+			justify-content: space-evenly;
+
+			/*align-items: center | flex-start | flex-end;*/
+			align-items: center;
+		}
+
+		.box {
+			width: 100px;
+			height: 100px;
+			border: 2px solid deeppink;
+		}
+	</style>
+</head>
+<body>
+	<div class="outer">
+		<div class="box box1">Box 1</div>
+		<div class="box box2">Box 2</div>
+		<div class="box box3">Box 3</div>
+		<div class="box box4">Box 4</div>
+	</div>
+</body>
+</html>

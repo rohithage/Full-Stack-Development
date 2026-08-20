@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Day 11.2 - flexbox, output</title>
+
+	<style>
+
+		#registersection {
+			height: 97vh; /*for vertically center is compulsory to give the height 95vh or 100vh and then applay the justify-content: center; align-items: center;*/
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			
+			border: 3px solid red;
+		}
+		
+		#regform {
+			width: 500px;
+			background-color: lavender;
+			border: 2px solid #453596;
+			padding:50px 30px;
+			box-sizing: border-box;
+			border-radius: 50px;
+			box-shadow: 3px 3px 2px #e0a6d6;
+		}
+
+		#regform input {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 15px;
+			box-sizing: border-box;
+		}
+
+		#btn {
+			/*border: 2px solid darkred;*/
+			text-align: center;
+		}
+
+		button {
+			background-color: gray;
+			color: white;
+			padding: 8px;
+			border-radius: 5px;
+			transition: background-color 0.5s;
+			cursor: pointer;
+		}
+
+		button:hover {
+			background-color: black;
+		}
+
+	</style>
+
+</head>
+<body>
+	<section id="registersection">
+	<form id="regform">
+		<input type="text" name="Fullname" placeholder="Fullname">
+		<input type="email" name="Email" placeholder="Email">
+		<input type="Password" name="Password" placeholder="Password">
+		<input type="Contact" name="Contact No" placeholder="Contact No">
+
+		<div id="btn">
+			<button type="Submit">Submit</button>
+			<!-- <input type="Submit" value="Register"> -->
+		</div>
+	</form>
+	</section>
+</body>
+</html>
