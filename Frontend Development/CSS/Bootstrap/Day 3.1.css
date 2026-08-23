@@ -1,0 +1,25 @@
+:root{
+	--primary-color: blue;
+	--back-color: lightgrey;
+}
+
+.jumbotron {
+	height: 95vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--primary-color);
+	color: var(--back-color);
+}
+
+.bg-custom {
+	background-color: var(--back-color);
+}
+
+.nav-link {
+	color: #fff;
+}
+
+.dropdown-menu {
+	border: 0.5px solid blueviolet;
+}
