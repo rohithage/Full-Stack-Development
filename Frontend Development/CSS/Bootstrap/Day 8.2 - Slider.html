@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Day 8.2 - Slick Slider</title>
+
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"><link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<style>
+		img {
+			width: 300px;
+		}
+	</style>
+
+	
+</head>
+<body>
+
+	<div class="responsive">
+	    <div>
+	    	<img src=".\img\download (3).jpg" class="img-fluid">
+	    </div>
+	    <div>
+	    	<img src=".\img\download (5).jpg" class="img-fluid">
+	    </div>
+	    <div>
+	    	<img src=".\img\download (4).jpg" class="img-fluid">
+	    </div>
+	    <div>
+	    	<img src=".\img\download (9).jpg" class="img-fluid">
+	    </div>
+	    <div>
+	    	<img src=".\img\Spiderman.jpg" class="img-fluid">
+	    </div>
+	    <div>
+	    	<img src=".\img\spider2.jpg" class="img-fluid">
+	    </div>
+	    <div>
+	    	<img src=".\img\download (6).jpg" class="img-fluid">
+	    </div>
+	    <div>
+	    	<img src=".\img\spider4.jpg" class="img-fluid">
+	    </div>
+	    <div>
+	    	<img src=".\img\Spiderman.jpg" class="img-fluid">
+	    </div>
+	    <div>
+	    	<img src=".\img\spider3.jpg" class="img-fluid">
+	    </div>
+	    <div>
+	    	<img src=".\img\spider1.jpg" class="img-fluid">
+	    </div>
+	    <div>
+	    	<img src=".\img\𝐒pider-man edit_.jpg" class="img-fluid">
+	    </div>
+	    <div>
+	    	<img src=".\img\download (7).jpg" class="img-fluid">
+	    </div>
+
+  	</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/4.0.0/jquery.min.js" integrity="sha512-8LENNbXmzI/Gbj+OwXmqR6V4QaUAw0/porPzy1+dQoJqC0JPHedWoe0DDOTL2uHA5XXJyIsPtiMHH86pVlay6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/4.0.2/jquery-migrate.min.js" integrity="sha512-uOxEQArH5KsutsjkomKx93ii6l8wgvikljvFmiROZm1mb0PMu2uerhsVe+n6Atpd7LMVV8dFbphSD1Azjr/tIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+	$(document).ready(function(){
+  		$('.responsive').slick({
+		  dots: true,
+		  infinite: false,
+		  speed: 300,
+		  slidesToShow: 4,
+		  slidesToScroll: 1,
+		  autoplay: true,
+		  autoplaySpeed: 2000,
+		  responsive: [
+		    {
+		      breakpoint: 1024,
+		      settings: {
+		        slidesToShow: 3,
+		        slidesToScroll: 3,
+		        infinite: true,
+		        dots: true
+		      }
+		    },
+		    {
+		      breakpoint: 600,
+		      settings: {
+		        slidesToShow: 2,
+		        slidesToScroll: 2
+		      }
+		    },
+		    {
+		      breakpoint: 480,
+		      settings: {
+		        slidesToShow: 1,
+		        slidesToScroll: 1
+		      }
+		    }
+		    // You can unslick at a given breakpoint now by adding:
+		    // settings: "unslick"
+		    // instead of a settings object
+		  ]
+		});
+	});
+</script>
+
+</body>
+</html>
